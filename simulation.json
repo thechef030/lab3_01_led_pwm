@@ -1,5 +1,9 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+    "sources": [
+        "src/button_onepulse.v",
+        "src/pwm_channel.v",
+        "src/lab3_led_pwm.v"
+    ],
+    "testbench": "sim/tb_led_pwm.sv",
+    "simulation_top": "tb_led_pwm"
 }
